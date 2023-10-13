@@ -18,4 +18,4 @@ numpy
 pandas
 matplotlib
 seaborn
-polars
+azure-cosmos
