@@ -1,6 +1,6 @@
 [![CI](https://github.com/nogibjj/706_Week01_YL/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/706_Week01_YL/actions/workflows/cicd.yml)
 
-# 706_Week01_YL
+# 706_Week07_YL
 
 This repository includes the main tasks for Week 1:
 
@@ -9,12 +9,14 @@ This repository includes the main tasks for Week 1:
 * `Workflows` includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
 * `.gitignore` is used to specify which files or directories should be excluded from version control when using Git.
 * `README.md` is the instruction file for the readers.
-* `descriptive.py` is a Python file that contains the main function.
-* `test_descriptive.py`  is a test file for `descriptive.py` that can successfully run in IDEs.
+* `main.py` is a Python file that contains the main function.
+* `test_main.py`  is a test file for `descriptive.py` that can successfully run in IDEs.
 * `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
 
 ## Project description
 
+* Package a Python script with setuptools 
+* Include a user guide on usage and installation
 
 ## Project environment
 
