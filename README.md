@@ -23,8 +23,8 @@ This repository includes the main tasks for Week 7:
 ## Project environment
 
 * Use codespace for scripting
-* Set up for Rust, install Rust and Cargo, and check the versions
-* Run `cargo build` to compile the changes and `cargo run` to test the modified tool.
+* Set up for Rust, install Rust and Cargo, and check the versions (Rust 1.73.0 and Cargo 1.73.0)
+* Go into the directory `caesar-cipher-cli`, and Run `cargo build` to compile the changes and `cargo run` to test the modified tool.
 
 ## Project Guide
 
@@ -41,8 +41,9 @@ Description:
 * We can transfer an integer value to a corresponding character by ASCII rule: `cargo run -- --int-to-ascii --message int`.
 * We can change the content after message to `.txt` file: `cargo run -- --encrypt --message test.txt --shift 3` and `cargo run -- --int-to-ascii --message test.txt`.
 
-Example:
-* `cargo run -- --message "Hello World" --encrypt --shift 2`. The output is
+Examples:
+* `cargo run -- --message "Hello World" --encrypt --shift 2`. The output is `Jgnnq Yqtnf`.
+* `cargo run -- --int-to-ascii --message 65`. The output is `A`.
 
 
 ## Check format & errors
@@ -52,6 +53,7 @@ Example:
 2. make lint
 
 3. make test
+![Alt text](figures/test.png)
 
 ### References
 

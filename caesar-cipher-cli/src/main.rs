@@ -65,7 +65,10 @@ fn main() {
         if let Ok(integer_value) = input_data.parse::<u8>() {
             match int_to_ascii(integer_value) {
                 Ok(ascii_char) => {
-                    println!("Integer: {} corresponds to ASCII character: {}", integer_value, ascii_char);
+                    println!(
+                        "Integer: {} corresponds to ASCII character: {}",
+                        integer_value, ascii_char
+                    );
                 }
                 Err(err) => {
                     eprintln!("Error: {}", err);
