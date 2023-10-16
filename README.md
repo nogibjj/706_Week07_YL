@@ -10,13 +10,14 @@ This repository includes the main tasks for Week 7:
 * `.gitignore` is used to specify which files or directories should be excluded from version control when using Git.
 * `README.md` is the instruction file for the readers.
 * `main.py` is a Python file that contains the main function.
-* `test_main.py`  is a test file for `descriptive.py` that can successfully run in IDEs.
+* `test_main.py`  is a test file for `main.py` that can successfully run in IDEs.
 * `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
 
 ## Project description
 
 * Package a Python script with setuptools 
 * Include a user guide on usage and installation
+* Communicate with a database
 
 ## Project environment
 
@@ -31,3 +32,10 @@ This repository includes the main tasks for Week 7:
 2. make lint
 
 3. make test
+
+### References
+
+https://nogibjj.github.io/candle-cookbook/
+
+https://github.com/nogibjj/rust-data-engineering
+
