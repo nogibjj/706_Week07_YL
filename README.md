@@ -41,6 +41,9 @@ Description:
 * We can transfer an integer value to a corresponding character by ASCII rule: `cargo run -- --int-to-ascii --message int`.
 * We can change the content after message to `.txt` file: `cargo run -- --encrypt --message test.txt --shift 3` and `cargo run -- --int-to-ascii --message test.txt`.
 
+Example:
+* `cargo run -- --message "Hello World" --encrypt --shift 2`. The output is
+
 
 ## Check format & errors
 

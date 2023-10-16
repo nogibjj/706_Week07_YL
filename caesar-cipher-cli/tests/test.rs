@@ -4,7 +4,7 @@ mod tests {
     
     #[test]
     fn test_encrypt_decrypt() {
-        let text = "Yue Li";
+        let text = "Michael Yue Li";
         let shift = 3;
         let encrypted = encrypt(text, shift);
         let decrypted = decrypt(&encrypted, shift);
