@@ -1,4 +1,4 @@
-[![CI](https://github.com/nogibjj/706_Week07_YL/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/706_Week07_YL/actions/workflows/cicd.yml)
+[![Tests](https://github.com/nogibjj/706_Week07_YL/actions/workflows/tests.yml/badge.svg)](https://github.com/nogibjj/706_Week07_YL/actions/workflows/tests.yml)
 
 # 706_Week07_YL
 
