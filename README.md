@@ -1,3 +1,4 @@
+[![Clippy](https://github.com/nogibjj/706_Week07_YL/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/706_Week07_YL/actions/workflows/lint.yml)
 [![Tests](https://github.com/nogibjj/706_Week07_YL/actions/workflows/tests.yml/badge.svg)](https://github.com/nogibjj/706_Week07_YL/actions/workflows/tests.yml)
 
 # 706_Week07_YL
